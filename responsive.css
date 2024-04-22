@@ -1,0 +1,130 @@
+
+@media only screen and (min-width:250px)and (max-width:767px) {
+  /* header section */
+  .header {
+    padding: 10px 40px;
+  }
+  .navOpen {
+    right: 18px;
+    top: 15px;
+}
+.navbar2 {
+  width: 70%;
+}
+  nav.navbar{
+    display:none;
+  }
+  .navOpen{
+    display:block;
+  }
+
+  /* home section */
+  
+  section#homeSection {
+    margin-top: 24px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .container {
+    padding: 30px 40px;
+    flex-wrap: wrap;
+}
+.home-info {
+  width: 100%;
+}
+  .home-img {
+    display: none;
+}
+/* home section end */
+  /* about section start */
+  .title{
+      padding-top: 25px;
+      font-size: 25px;
+  }
+  .about-img {
+    flex-basis: 100%;
+    justify-content:left;
+}
+.about-desc {
+  flex-basis: 100%;
+}
+.about-desc p {
+  font-size: 10px;
+  line-height: 17px;
+}
+button.seemoreBtn {
+  padding: 6px 7px;
+  font-size: 12px;
+}
+.row {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.col {
+  flex-basis: 100%;
+}
+.about-desc h2{
+  display: none;
+}
+    /* about section end */
+
+    /* project section start */
+    .pro-box {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+  }
+  .s-pro.box{
+    width: 100%;
+  }
+    /* project section end */
+    /* footer section start */
+    .footerWrapper {
+      flex-wrap: wrap;
+      gap: 27px;
+      justify-content: flex-start;
+  }
+  .Fcol {
+    width: 100%;
+}
+.FsocialLink {
+  justify-content: center;
+}
+    /* footer section end */
+  }
+  
+
+  @media only screen and (min-width: 600px) and (max-width: 767px) {
+    nav.navbar {
+      display: none;
+    }
+    .navOpen {
+      display: block;
+    }
+    
+  }
+  
+  
+  @media only screen and (min-width: 768px) and (max-width:991px) {
+    .header{
+      padding: 20px 60px;
+    }
+    nav.navbar{
+      gap:20px
+    }
+    nav.navbar li a{
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+
+  }
+  
+  @media only screen and (min-width: 1200px) {
+
+  }
+  
